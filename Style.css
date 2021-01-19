@@ -2,20 +2,12 @@
 
 /* Menu */
 
-    #header-web{
-        height: auto;
-    }
-
-    p{
-        font-size: 20px;
-    }
-
     .menu-bar{
         background: linear-gradient(60deg,#ffeee6,#ffcccc,#66c2ff,#000099);
         margin-left:0px;
         margin-right:0px;
     }
-    
+  
     nav{
         align-content: center;
         justify-content: center;
@@ -37,8 +29,8 @@
     }
 
 
-/* Dien thoai */
-@media(max-width: 645px)
+/* MOBILE */
+@media(max-width: 700px)
 {
 
     nav li{
@@ -57,12 +49,16 @@
         background-color: black;
         color:aqua;
         opacity: 0.7;
-        border-radius: 10%;
+        border-radius: 10px;
     }
 
     
 }
+/* HEADER COMPLETED */
 
+
+
+/* DEVICE */
 body{
     background-image: url("https://thietbiketnoi.com/wp-content/uploads/2020/01/tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-2.jpg");
 }
@@ -79,10 +75,10 @@ body{
     float: left;
     background-color: gray;
     opacity: 0.8;
-    width: 650px;
+    width: 600px;
     margin-left: 30px;
     margin-right: 10px;
-
+    border-radius: 10px;
 }
 
 .inputNote{
@@ -101,9 +97,10 @@ body{
     float: right;
     background-color: gray;
     opacity: 0.8;
-    width: 650px;
+    width: 600px;
     margin-right: 30px;
     margin-left: 10px;
+    border-radius: 10px;
 }
 
 .contact{
@@ -116,4 +113,7 @@ body{
     margin-left: 80px;
     margin-right: 10px;
     color: none;
+    border-radius: 10px;
 }
+
+/* DEVICE LOADING */
