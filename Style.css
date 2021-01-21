@@ -1,60 +1,111 @@
-/* Style CSS */
-
 /* Menu */
 
-    .menu-bar{
-        background: linear-gradient(60deg,#ffeee6,#ffcccc,#66c2ff,#000099);
-        margin-left:0px;
-        margin-right:0px;
-    }
-  
-    nav{
-        align-content: center;
-        justify-content: center;
-    }
-
-    nav li{
-        display:inline;
-        height: 50px;
-        margin: 50px;
-        color:none;
-        font-size:24px;
-    
-    }
-
-    nav li:hover{
-        background-color: black;
-        opacity: 0.3;
-        color:aqua;
-    }
-
-
-/* MOBILE */
-@media(max-width: 700px)
-{
-
-    nav li{
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-        margin-left: 10px;
-        margin-right: 100%;
-        color:none;
-    }
-
-    nav li:hover{
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-        background-color: black;
-        color:aqua;
-        opacity: 0.7;
-        border-radius: 10px;
-    }
-
-    
+.menu-bar{
+    background: linear-gradient(60deg,#ffeee6,#ffcccc,#66c2ff,#000099);
+    margin-left:0px;
+    margin-right:0px;
 }
+
+nav{
+    align-content: center;
+    justify-content: center;
+}
+
+nav li{
+    display:inline;
+    height: 50px;
+    margin: 50px;
+    color:none;
+    font-size:24px;
+
+}
+
+nav li:hover{
+    background-color: black;
+    opacity: 0.3;
+    color:aqua;
+}
+
+
+/* TABLET */
+@media(max-width: 765px)
+{
+nav li{
+    text-align: center;
+    justify-content: center;
+
+    margin-left: 2%;
+    margin-right: 70%;
+    color:none;
+}
+
+nav li:hover{
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color:aqua;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+}
+
+
+/* Big Mobile */
+@media(max-width: 525px)
+{
+nav li{
+    text-align: center;
+    justify-content: center;
+
+    margin-left: 1%;
+    margin-right: 60%;
+    color:none;
+}
+
+nav li:hover{
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color:aqua;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+}
+
+/* Small Mobile */
+@media(max-width: 385px)
+{
+nav li{
+    text-align: center;
+    justify-content: center;
+    margin-left: 50%;
+    margin-right: auto;
+    color:none;
+}
+
+nav li:hover{
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color:aqua;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+}
+
+/* Smaller -- fail to Load -- */
+@media(max-width: 310px)
+{
+nav li{
+    visibility: hidden;
+}
+}
+
 /* HEADER COMPLETED */
+
 
 
 
@@ -66,12 +117,11 @@ body{
 .inOut_Note{
    text-align: center;
    margin: 50px ;
-   position: absolute;
 }
 
 .inNote{
     text-align: center;
-    position: relative;
+    
     float: left;
     background-color: gray;
     opacity: 0.8;
@@ -79,6 +129,8 @@ body{
     margin-left: 30px;
     margin-right: 10px;
     border-radius: 10px;
+    margin-bottom: 100px;
+    position: relative;
 }
 
 .inputNote{
@@ -86,6 +138,7 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 20cm;
+    word-wrap: break-word;
 }
 .inputNote p{
     font-size: 20px;
@@ -93,7 +146,6 @@ body{
 
 .outNote{
     text-align: center;
-    position: relative;
     float: right;
     background-color: gray;
     opacity: 0.8;
@@ -101,19 +153,26 @@ body{
     margin-right: 30px;
     margin-left: 10px;
     border-radius: 10px;
+    word-wrap: break-word;
 }
+.contact-container{
+    width: 1000px;
+    background-color: none;
 
+}
 .contact{
     font-family:  Lobster;
     text-align: left;
-    background-color:white;
+    background-color: white;
     float: left;
-    width: 650px;
-    margin-top: 600px;
-    margin-left: 80px;
-    margin-right: 10px;
+    width: 300px;
+    margin-left: 250px;
     color: none;
     border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    
+
 }
 
 /* DEVICE LOADING */
