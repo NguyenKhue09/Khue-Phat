@@ -156,23 +156,19 @@ body{
     word-wrap: break-word;
 }
 .contact-container{
-    width: 1000px;
-    background-color: none;
-
+    width:100%;
+    margin-top: 200px;
+    float:left;
 }
-.contact{
+.contact-left{
     font-family:  Lobster;
     text-align: left;
-    background-color: white;
+    background-color:rgb(85, 81, 81);
     float: left;
-    width: 300px;
-    margin-left: 250px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     color: none;
-    border-radius: 10px;
-    margin-top: 10px;
-    padding-left: 20px;
-    
-
 }
 
 /* DEVICE LOADING */
